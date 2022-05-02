@@ -1,0 +1,20 @@
+{
+  "name": "Tau Fetch Link",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Fetch TAU video-server link for VLC streaming",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Fetch link."
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
